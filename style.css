@@ -1,0 +1,74 @@
+.nav-bar{ 
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color:#6d16f0;
+    color: white;
+   
+
+}
+.main h1{
+    color: yellow;
+}
+.main a{
+    border: 2px solid white;
+  border-radius: 12px;
+    color:white;
+    padding:15px 30px;
+    text-decoration: none;
+}
+.main a:hover{
+transform: scale(1.2);
+}
+.team{
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
+background-color: rgba(202, 197, 197, 0.255);
+justify-content: center;
+
+}
+.team-box{
+    background-color: white;
+    width: 25%;
+    margin: 20px;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.team-box h4{
+    color:rgba(184, 181, 181, 0.981)
+}
+  .nav-bar h4{
+    color:rgba(184, 181, 181, 0.981)
+}
+.team-box img{
+    width:30% ;
+}
+
+
